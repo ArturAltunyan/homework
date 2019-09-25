@@ -1,9 +1,8 @@
-a = 5
-b = 6
-c = 2
-if a < b and c > 5:
-	print("a is less than b")
+#a = "cold"
+#hot = 11...35
 
-if a > b and c < 5:
-    print("a is greater than b")
-
+input_weather = int(input("weather: "))
+if input_weather <= 10:
+	print("cold", input_weather)
+else:
+	print("hot", input_weather)
